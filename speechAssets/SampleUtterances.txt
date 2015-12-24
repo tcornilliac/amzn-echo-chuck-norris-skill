@@ -1,0 +1,6 @@
+GetNewChuckFactIntent for a fact
+GetNewChuckFactIntent for a factoid
+GetNewChuckFactIntent for a joke
+GetNewChuckFactIntent for a chuck fact
+GetNewChuckFactIntent for a random fact
+GetNewChuckFactIntent for a random chuck fact
