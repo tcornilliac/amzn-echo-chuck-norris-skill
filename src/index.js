@@ -1,5 +1,5 @@
 var config = require('./config');
-var FACTS = require('./ChuckNorris');
+var FACTS = require('./facts');
 var AlexaSkill = require('./AlexaSkill');
 var APP_ID = config.appID;
 
