@@ -1,7 +1,7 @@
 var config = require('./config');
 var FACTS = require('./facts');
 var AlexaSkill = require('./AlexaSkill');
-var APP_ID = config.appID;
+var APP_ID = config.appId;
 
 var ChuckFacts = function () {
     AlexaSkill.call(this, APP_ID);
