@@ -1,6 +1,16 @@
-GetNewChuckFactIntent for a fact
-GetNewChuckFactIntent for a factoid
-GetNewChuckFactIntent for a joke
-GetNewChuckFactIntent for a chuck fact
-GetNewChuckFactIntent for a random fact
-GetNewChuckFactIntent for a random chuck fact
+GetFirstFactIntent for a fact
+GetFirstFactIntent for a factoid
+GetFirstFactIntent for a joke
+GetFirstFactIntent for a chuck fact
+GetFirstFactIntent for a random fact
+GetFirstFactIntent for a random chuck fact
+
+GetNextFactIntent yes
+GetNextFactIntent yup
+GetNextFactIntent sure
+GetNextFactIntent yes please
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you

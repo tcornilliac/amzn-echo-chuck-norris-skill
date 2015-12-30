@@ -1,7 +1,10 @@
 {
   "intents": [
     {
-      "intent": "GetNewChuckFactIntent"
+      "intent": "GetFirstFactIntent"
+    },
+    {
+      "intent": "GetNextFactIntent"
     },
     {
       "intent": "AMAZON.HelpIntent"
@@ -13,4 +16,4 @@
       "intent": "AMAZON.CancelIntent"
     }
   ]
- }
+}

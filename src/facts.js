@@ -1,4 +1,4 @@
-module.exports = [
+var facts = [
   "When Alexander Bell invented the telephone he had 3 missed calls from Chuck Norris",
   "There used to be a street named after Chuck Norris, but it was changed because nobody crosses Chuck Norris and lives.",
   "Chuck Norris has already been to Mars; that's why there are no signs of life.",
@@ -48,4 +48,18 @@ module.exports = [
   "Chuck Norris sleeps with a pillow under his gun.",
   "Chuck Norris won the World Horseshoe Pitching Contest while they were still attached to a Clydesdale.",
   "When Chuck Norris swims in the ocean, the sharks are in a steel cage."
-]
+];
+
+function ChuckFacts() {
+  this.workingFacts = facts;
+};
+
+ChuckFacts.prototype.getRandomFact = function() {
+  var factIndex = Math.floor(Math.random() * this.workingFacts.length);
+  var randomFact = this.workingFacts[factIndex];
+  this.workingFacts.splice(factIndex, 1);
+  console.log(this.workingFacts.length + "items remaining in the session queue");
+  return randomFact;
+}
+
+module.exports = new ChuckFacts();
